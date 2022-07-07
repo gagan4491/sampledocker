@@ -1,5 +1,5 @@
 FROM nginx:alpine
 COPY . /usr/share/nginx/test.html
 
-EXPOSE 81/tcp
-EXPOSE 81/udp
+EXPOSE 3000/tcp
+EXPOSE 3000/udp
