@@ -1,5 +1,5 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY . /usr/share/nginx/html/test.html
 
 EXPOSE 3000/tcp
 EXPOSE 3000/udp
